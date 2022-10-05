@@ -1,0 +1,42 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #222831;
+}
+
+
+nav{
+    color: white;
+}
+
+h1{
+   color: rgb(4, 196, 235); 
+}
+
+a:hover{
+    color: #E7F6F2;
+    background: rgb(2,0,36);
+    background: linear-gradient(222deg, rgba(2,0,36,1) 0%, rgba(52,52,222,1) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 10px rgba(87, 217, 253, 0.7);
+
+}
+
+h1.title{
+    font-family: 'Libre Baskerville', serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(222deg, rgba(2,0,36,1) 0%, rgba(52,52,222,1) 0%, rgba(0,212,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h3{
+    color: #E7F6F2;
+}
+
+button:hover{
+    -webkit-box-shadow:0px 0px 37px 5px rgba(46,147,255,0.4);
+    -moz-box-shadow: 0px 0px 37px 5px rgba(46,147,255,0.4);
+    box-shadow: 0px 0px 37px 5px rgba(46,147,255,0.4);
+}
